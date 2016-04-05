@@ -1,0 +1,337 @@
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url('/fonts/proxima_novalight/proximanova-light-webfont.eot');
+    src: url('/fonts/proxima_novalight/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/proxima_novalight/proximanova-light-webfont.woff2') format('woff2'),
+    url('/fonts/proxima_novalight/proximanova-light-webfont.woff') format('woff'),
+    url('/fonts/proxima_novalight/proximanova-light-webfont.ttf') format('truetype'),
+    url('/fonts/proxima_novalight/proximanova-light-webfont.svg#proxima_novalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_novaregular';
+    src: url('/fonts/proxima_novaregular/proximanova-regular-webfont.eot');
+    src: url('/fonts/proxima_novaregular/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/proxima_novaregular/proximanova-regular-webfont.woff2') format('woff2'),
+    url('/fonts/proxima_novaregular/proximanova-regular-webfont.woff') format('woff'),
+    url('/fonts/proxima_novaregular/proximanova-regular-webfont.ttf') format('truetype'),
+    url('/fonts/proxima_novaregular/proximanova-regular-webfont.svg#proxima_novaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_novasemibold';
+    src: url('/fonts/proxima_novasemibold/proximanova-semibold-webfont.eot');
+    src: url('/fonts/proxima_novasemibold/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/proxima_novasemibold/proximanova-semibold-webfont.woff2') format('woff2'),
+    url('/fonts/proxima_novasemibold/proximanova-semibold-webfont.woff') format('woff'),
+    url('/fonts/proxima_novasemibold/proximanova-semibold-webfont.ttf') format('truetype'),
+    url('/fonts/proxima_novasemibold/proximanova-semibold-webfont.svg#proxima_novasemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima_novabold';
+    src: url('/fonts/proxima_novabold/proximanova-bold-webfont.eot');
+    src: url('/fonts/proxima_novabold/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/proxima_novabold/proximanova-bold-webfont.woff2') format('woff2'),
+    url('/fonts/proxima_novabold/proximanova-bold-webfont.woff') format('woff'),
+    url('/fonts/proxima_novabold/proximanova-bold-webfont.ttf') format('truetype'),
+    url('/fonts/proxima_novabold/proximanova-bold-webfont.svg#proxima_novabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/*header*/
+
+header{
+    background-color: rgb(51, 84, 253);
+    height: 65px;
+    width: 100%;
+    position: relative;
+}
+.logo{
+    font-family: 'proxima_novabold', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.25em;
+    font-weight: 700;
+    line-height: 65px;
+    margin-left: 50px;
+}
+.login{
+    font-family: 'proxima_novasemibold', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 500;
+    margin-right: 10px;
+    line-height: 65px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.login:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.login.active{
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    margin-right: 10px;
+    line-height: 65px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+.lang{
+    font-family: 'proxima_novasemibold', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 0.875em;
+    line-height: 65px;
+    border-left: 2px solid rgb(41, 68, 204);
+}
+i.glyphicon.glyphicon-chevron-down {
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+
+/*main*/
+
+h1{
+    font-family: 'proxima_novabold', sans-serif;
+    color:  #7e8ea4;
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1.042;
+    text-align: left;
+}
+.line{
+    border-bottom: 1px solid rgb(206, 216, 208);
+}
+.field{
+    border-bottom: 1px solid rgb(206, 216, 208);
+    margin: 30px 0;
+}
+.step-group{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.step-1, .step-2{
+    float: left;
+    width: 30%;
+    position: relative;
+}
+.step-3{
+    float: right;
+    width: 30%;
+    position: relative;
+}
+.step-1 h4{
+    font-family:'proxima_novaregular', sans-serif;
+    color:  #7e8ea4;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 2.083;
+    text-align: left;
+}
+.step-2 h4{
+    font-family:'proxima_novaregular', sans-serif;
+    color:  #7e8ea4;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 2.083;
+    text-align: center;
+}
+.step-3 h4{
+    font-family:'proxima_novaregular', sans-serif;
+    color:  #7e8ea4;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 2.083;
+    text-align: right;
+}
+.number-left{
+    background-color: rgb(42, 204, 69);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    line-height: 36px;
+    font-family: 'proxima_novabold', sans-serif;
+    font-size: 1.125em;
+    font-weight: 700;
+    z-index: 100;
+}
+.number-center{
+    background-color: rgb(42, 204, 69);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    line-height: 36px;
+    font-family: 'proxima_novabold', sans-serif;
+    font-size: 1.125em;
+    font-weight: 700;
+    margin: 0 auto;
+    z-index: 100;
+}
+.number-right{
+    background-color: rgb(121, 242, 141);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    line-height: 36px;
+    font-family: 'proxima_novabold', sans-serif;
+    font-size: 1.125em;
+    font-weight: 700;
+    z-index: 100;
+    float: right;
+}
+
+.line-active{
+    background-color:  #2acc45;
+    width: 75%;
+    height: 3px;
+    position: absolute;
+    top: 119px;
+    z-index: 10;
+}
+.line-passive{
+    background-color:  #79f28d;
+    width: 25%;
+    height: 3px;
+    position: absolute;
+    top: 119px;
+    z-index: 10;
+    right: 20px;
+}
+form {
+    margin: 40px 0 40px;
+}
+.form-horizontal .control-label {
+    text-align: left;
+    margin-bottom: 7px;
+    margin-right: 10px;
+}
+label{
+    font-family: 'proxima_novaregular', sans-serif;
+    color:  #7e8ea4;
+    font-size: 1.15em;
+    font-weight: 400;
+    line-height: 1.923;
+    text-align: left;
+}
+.white-tooltip + .tooltip > .tooltip-inner {
+    border: 1px solid #ced8e4;
+    background-color:  #ffffff;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.12);
+    width: 320px;
+    height: 150px;
+    font-family: 'proxima_novasemibold', sans-serif;
+    color:  #7e8ea4;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: left;
+}
+.white-tooltip + .tooltip > .tooltip-arrow{
+    border-top-color: #ffffff;
+    z-index: 50;
+}
+
+.info{
+    font-family: 'proxima_novaregular', sans-serif;
+    color:  #9daaba;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.429;
+    text-align: left;
+}
+.form-control{
+    font-family: 'proxima_novaregular', sans-serif;
+    color:  #ced8e4;
+    font-size: 0.975em;
+    font-weight: 400;
+    line-height: 2.1em;
+    text-align: left;
+    height: 38px;
+}
+.required {
+    float: right;
+    padding-top: 5px;
+    font-family: 'proxima_novalight', sans-serif;
+    color:  #9daaba;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 2.273;
+    text-align: left;
+}
+.btn-wrap{
+    text-align: right;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.btn-prev,.btn-next {
+    text-transform: uppercase;
+    font-family: 'proxima_novasemibold', sans-serif;
+    color:  #7e8ea4;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 40px;
+    background: transparent;
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+    text-align: center;
+    border: none!important;
+    outline: none;
+}
+.btn-wrap .btn-next.active{
+    background: rgb(41, 204, 68);
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+.wrap-checkbox{
+    background: url('../img/check.png') no-repeat 0 0;
+    display: block;
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+.wrap-checkbox.active{
+    background: url('../img/mark.png') no-repeat 0 0;
+}
+.label-text{
+    font-family:'proxima_novaregular', sans-serif;
+    color:  #9daaba;
+    font-size: 0.875em;
+    font-weight: 400;
+    line-height: 2;
+    text-align: left
+}
+
+.clearfix:before,
+.clearfix:after{
+    content: "";
+    display: table;
+}
+
+.clearfix:after{
+    clear: both;
+}
+
+.clearfix{
+    zoom: 1; /* ie 6/7 */
+}
